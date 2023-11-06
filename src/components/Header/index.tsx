@@ -1,5 +1,5 @@
  import logo from '../../assets/logo.png'
- import IconGitHub from '../../assets/icon-GitHub.png'
+ import github_icon from '../../assets/github-icon.svg'
  import styles from './style.module.scss'
 
 export const Header = () => {
@@ -9,7 +9,7 @@ export const Header = () => {
             <div>
                 <img src={logo} alt='Logo' />
 
-                <a href="">Acessar Repositótio <img src={IconGitHub} alt="icon github" /></a>
+                <a href="">Acessar Repositótio <img src={github_icon} alt="icon github" /></a>
             </div>
         </header>
     )
