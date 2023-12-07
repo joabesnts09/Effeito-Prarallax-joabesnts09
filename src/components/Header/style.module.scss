@@ -43,4 +43,16 @@
             }
         }
     }
+
+    @media (max-width: 490px) {
+        padding: 0 2rem;
+        div {
+
+            a {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
 }
